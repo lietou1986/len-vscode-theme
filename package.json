@@ -1,9 +1,9 @@
 {
 	"name": "len-vscode-theme",
-	"displayName": "Len Theme",
-	"description": "Len theme for VS Code",
+	"displayName": "Len Theme Light and Dark",
+	"description": "A simple theme for Visual Studio Code by Len",
 	"version": "0.0.2",
-	"preview": true,
+	"preview": false,
 	"publisher": "Len",
 	"license": "MIT",
 	"icon": "icon.jpg",
@@ -43,7 +43,7 @@
 				"path": "./themes/dark.json"
 			},
 			{
-				"label": "Len Dark(vs)",
+				"label": "Len Dark (plus)",
 				"uiTheme": "vs-dark-vs",
 				"path": "./themes/dark_vs.json"
 			}

@@ -1,3 +1,1 @@
-## 0.0.1
-
-- Initial release
+Follow me (https://lietou1986.github.io/)
