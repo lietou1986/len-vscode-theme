@@ -2,7 +2,7 @@
 	"name": "len-vscode-theme",
 	"displayName": "Len Theme Light and Dark",
 	"description": "A simple theme for Visual Studio Code by Len",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"preview": false,
 	"publisher": "Len",
 	"license": "MIT",
