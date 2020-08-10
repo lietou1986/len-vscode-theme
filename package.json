@@ -2,7 +2,7 @@
 	"name": "len-vscode-theme",
 	"displayName": "Len Theme Light and Dark",
 	"description": "A simple theme for Visual Studio Code by Len",
-	"version": "0.0.3",
+	"version": "0.1.4",
 	"preview": false,
 	"publisher": "Len",
 	"license": "MIT",
@@ -28,7 +28,11 @@
 		"theme",
 		"github",
 		"light",
-		"dark"
+		"dark",
+		"len",
+		"youdao",
+		"wx",
+		"weixin"
 	],
 	"contributes": {
 		"themes": [
@@ -38,14 +42,29 @@
 				"path": "./themes/light.json"
 			},
 			{
+				"label": "Len Light (blue)",
+				"uiTheme": "vs",
+				"path": "./themes/light_blue.json"
+			},
+			{
+				"label": "Len Light (cyan)",
+				"uiTheme": "vs",
+				"path": "./themes/light_cyan.json"
+			},
+			{
+				"label": "Len Light (pink)",
+				"uiTheme": "vs",
+				"path": "./themes/light_pink.json"
+			},
+			{
 				"label": "Len Dark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/dark.json"
 			},
 			{
 				"label": "Len Dark (plus)",
-				"uiTheme": "vs-dark-vs",
-				"path": "./themes/dark_vs.json"
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark_plus.json"
 			}
 		]
 	},
@@ -59,8 +78,8 @@
 		"build": "node src/index.js"
 	},
 	"__metadata": {
-		"id": "7328a705-91fc-49e6-8293-da6f112e482c",
-		"publisherId": "7c1c19cd-78eb-4dfb-8999-99caf7679003",
+		"id": "6a3a9e61-08d6-4d33-83f6-5a9853938e44",
+		"publisherId": "4ee5458b-2a79-4795-9314-acfc17ec144f",
 		"publisherDisplayName": "Len"
 	}
 }
